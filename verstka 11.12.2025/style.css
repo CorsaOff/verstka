@@ -1,0 +1,82 @@
+@media (min-width: 1440px){
+.back
+{
+    margin: 0 auto;
+    width: 1440px;
+    height: 550px;
+
+}
+.fonts {
+    width: 1440px;
+    height: 550px;
+
+}
+
+header {
+    background: url(./images/back.svg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 1440px;
+    height: 550px;
+}
+
+.header__navbar {
+    background: url(./images/fonts.svg);
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 60px;
+    display: flex;
+align-items: center;
+}
+.bar 
+{
+    margin-left: 165px;
+
+}
+.ccs
+{
+    margin-left: 125px;
+}
+.search 
+{
+    margin-left: 270px;
+    
+}
+.log
+{
+    margin-left: 59px;
+}
+h1
+{
+   position: absolute;
+   margin-top: 112px;
+   color: white;
+   width: 700px;
+   font-size: 60px;
+
+}
+h2
+{
+   position: absolute;
+    margin-top: 259px;
+    font-size: 16px;
+    width: 635px;
+    height: 72px;
+    color: white;
+}
+.frame
+{
+    position: absolute;
+    margin-top: 353px;
+}
+}
+@media (min-width: 440px) and (max-width: 1440px){
+header {
+    background: url(./images/back.svg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 440px;
+    height: 550px;
+    color: white
+}
+}
